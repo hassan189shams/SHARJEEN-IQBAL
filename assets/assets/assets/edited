@@ -1,309 +1,197 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#214a38">
-<meta property="og:title" content="Sharjeel Iqbal | AMUSU President 2026–27">
-<meta property="og:description" content="Awaz Aapki. Zimmedari Meri. Ilaaka Nahi, Alig. Lobby Nahi, Liyaqat.">
-<meta property="og:type" content="website">
-<meta name="description" content="Sharjeel Iqbal for AMUSU President 2026–27. Awaz Aapki. Zimmedari Meri. Website crafted by Hassan Shams.">
-<title>Sharjeel Iqbal — AMUSU President 2026–27</title>
-<style>
-:root{--paper:#f5f0e5;--paper2:#fffdf8;--ink:#20261f;--muted:#6d7067;--green:#214a38;--green2:#163729;--gold:#b79b62;--line:rgba(32,38,31,.17);--serif:Georgia,'Times New Roman',serif;--sans:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased}::selection{background:#d5c08f;color:#172d23}img{display:block;max-width:100%}a{color:inherit}button,input,textarea,select{font:inherit}.wrap{width:min(1180px,calc(100% - 40px));margin:auto}
-header{position:sticky;top:0;z-index:20;background:rgba(245,240,229,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav{min-height:74px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{text-decoration:none;display:flex;align-items:center;gap:11px;font-size:.73rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase}.seal{width:36px;height:36px;border:1px solid var(--green);border-radius:50%;display:grid;place-items:center;color:var(--green);font-family:var(--serif);font-size:1.15rem}.links{display:flex;align-items:center;gap:22px}.links a{font-size:.82rem;text-decoration:none;color:var(--muted)}.links a:hover{color:var(--green)}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:1px solid var(--green);background:var(--green);color:#fff;text-decoration:none;padding:12px 17px;font-size:.84rem;font-weight:750;border-radius:2px;cursor:pointer;transition:transform .2s,background .2s}.btn:hover{transform:translateY(-2px);background:var(--green2)}.btn.outline{background:transparent;color:var(--green)}.btn.gold{background:var(--gold);border-color:var(--gold);color:#171c17}
-.hero{padding:64px 0 76px;position:relative;overflow:hidden}.hero:after{content:"AMU · 2026–27";position:absolute;right:-26px;top:120px;writing-mode:vertical-rl;font-size:.62rem;letter-spacing:.24em;color:#214a3825;font-weight:900;pointer-events:none}.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;gap:54px;align-items:center}.eyebrow,.kicker{font-size:.7rem;letter-spacing:.19em;text-transform:uppercase;font-weight:850;color:var(--green);display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";height:1px;width:30px;background:var(--gold)}h1,h2,h3,p{margin-top:0}h1{font:500 clamp(3.5rem,7.5vw,7.3rem)/.88 var(--serif);letter-spacing:-.065em;margin:25px 0 22px}h1 span{color:var(--green);font-style:italic}.lead{font-size:1.07rem;max-width:560px;color:#51584f}.slogan{font-family:var(--serif);font-size:clamp(1.3rem,2.4vw,2rem);line-height:1.18;color:var(--green);margin:26px 0 9px}.slogan em{font-style:normal;color:var(--gold)}.second-slogan{font-size:.83rem;letter-spacing:.035em;font-weight:800;color:#53594e}.hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:28px}.micro{font-size:.75rem;color:var(--muted);margin-top:19px}.hero-photo{position:relative;background:var(--green);padding:14px;min-height:560px;box-shadow:18px 18px 0 #b79b6230}.hero-photo img{width:100%;height:532px;object-fit:cover;object-position:center 20%;filter:saturate(.88)}.photo-label{position:absolute;left:28px;right:28px;bottom:28px;padding:17px 18px;background:rgba(255,253,248,.94);display:flex;justify-content:space-between;gap:16px;align-items:end}.photo-label small{display:block;text-transform:uppercase;letter-spacing:.14em;font-size:.65rem;color:var(--muted);font-weight:800}.photo-label strong{font:1.55rem var(--serif)}.photo-label span{font-size:.72rem;font-weight:800;color:var(--green);text-align:right}
-.marquee{background:var(--green);color:#f8f3e8;padding:14px 0;overflow:hidden;white-space:nowrap;font-size:.72rem;font-weight:850;letter-spacing:.15em;text-transform:uppercase}.marquee span{padding-right:38px}
-section{padding:84px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:34px}.section-head h2{font:500 clamp(2.6rem,5vw,4.7rem)/.97 var(--serif);letter-spacing:-.045em;margin:12px 0 0}.section-head p{max-width:400px;color:var(--muted);margin-bottom:0;font-size:.93rem}.manifesto{background:var(--paper2)}.manifesto-grid{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--line)}.promise{display:grid;grid-template-columns:56px 1fr;gap:14px;padding:25px 26px 25px 0;border-bottom:1px solid var(--line)}.promise:nth-child(even){border-left:1px solid var(--line);padding-left:28px}.num{font:1.6rem var(--serif);color:var(--gold)}.promise small{display:block;font-size:.65rem;letter-spacing:.15em;text-transform:uppercase;color:var(--green);font-weight:850;margin-bottom:6px}.promise h3{font-size:1.1rem;margin:0 0 7px}.promise p{font-size:.87rem;color:var(--muted);margin:0}.promise{transition:background .2s,padding .2s}.promise:hover{background:#214a3806}
-.values{background:#e8e1d2}.value-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.value{padding:26px;background:var(--paper2);min-height:195px;border-top:2px solid var(--gold)}.value .big{font:2.4rem var(--serif);color:var(--green)}.value h3{font-size:1.05rem;margin:12px 0 8px}.value p{font-size:.85rem;color:var(--muted);margin:0}
-.visits{background:var(--green);color:white}.visits .kicker{color:#d5c08f}.visits .section-head p{color:#d9e0d8}.visit-list{border-top:1px solid #ffffff42}.visit{display:grid;grid-template-columns:58px 1fr auto;gap:18px;align-items:center;padding:20px 0;border-bottom:1px solid #ffffff42}.visit .n{font:1.5rem var(--serif);color:#d5c08f}.visit h3{margin:0;font-size:1.04rem}.visit p{margin:4px 0 0;color:#d9e0d8;font-size:.84rem}.visit time{font-size:.75rem;color:#e3d5b3;text-align:right}.notice{font-size:.75rem;color:#d9e0d8;margin-top:18px}
-.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.gallery-card{background:var(--paper2);padding:10px 10px 0;border:1px solid var(--line);box-shadow:0 12px 32px #20261f08;transition:transform .25s,box-shadow .25s}.gallery-card:hover{transform:translateY(-4px);box-shadow:0 18px 38px #20261f12}.gallery-card img{width:100%;height:410px;object-fit:cover;object-position:center top}.gallery-card:nth-child(2) img{object-position:center 35%}.gallery-card:nth-child(3) img{object-position:center 35%}.gallery-caption{padding:16px 7px 18px}.gallery-caption small{font-size:.65rem;text-transform:uppercase;letter-spacing:.15em;color:var(--gold);font-weight:850}.gallery-caption h3{font:1.25rem var(--serif);margin:4px 0}.gallery-caption p{font-size:.78rem;color:var(--muted);margin:0}
-.feedback{background:#e8e1d2}.feedback-grid{display:grid;grid-template-columns:.86fr 1.14fr;gap:54px;align-items:start}.feedback-copy h2{font:500 clamp(2.7rem,5vw,4.5rem)/.96 var(--serif);letter-spacing:-.045em;margin:14px 0}.feedback-copy p{color:#555b51;font-size:.94rem}.privacy{border:1px solid #c6b995;background:#f8f3e8;padding:17px;margin-top:22px;font-size:.82rem}.privacy strong{display:block;color:var(--green);margin-bottom:5px}.privacy small{display:block;color:var(--muted);margin-top:8px}.form-card{background:var(--paper2);padding:28px;border:1px solid var(--line)}.form-card h3{font:1.8rem var(--serif);margin-bottom:5px}.form-card>p{font-size:.82rem;color:var(--muted)}form{display:grid;gap:14px}label{font-size:.77rem;font-weight:800}input,textarea,select{display:block;width:100%;margin-top:6px;border:1px solid #d2cdbf;background:white;border-radius:2px;padding:12px 13px;color:var(--ink)}textarea{min-height:135px;resize:vertical}.field-hint{font-size:.7rem;color:var(--muted);margin-top:5px}.consent{display:flex;align-items:flex-start;gap:9px;font-size:.75rem;color:var(--muted);font-weight:500}.consent input{width:auto;margin-top:4px}.status{min-height:22px;font-size:.82rem;font-weight:700}.form-foot{font-size:.71rem;color:var(--muted)}
-.election{background:var(--gold);padding:40px 0}.election-grid{display:flex;align-items:center;justify-content:space-between;gap:30px}.election h2{font:500 clamp(2.4rem,4vw,3.6rem)/.98 var(--serif);margin:8px 0}.election p{font-size:.78rem;margin:8px 0 0;max-width:520px}.timer{display:flex;gap:14px;background:#fff5df55;padding:18px;border:1px solid #6e572d30}.timebox strong{font-variant-numeric:tabular-nums}.timebox{text-align:center;min-width:62px}.timebox strong{display:block;font:2.2rem/1 var(--serif)}.timebox span{font-size:.62rem;font-weight:850;text-transform:uppercase;letter-spacing:.1em}
-footer{background:#172d23;color:white;padding:38px 0}.footer-row{display:flex;justify-content:space-between;align-items:center;gap:25px}.footer-brand{font-size:.74rem;font-weight:850;letter-spacing:.12em}.footer-row p{font-size:.78rem;color:#d1d9d0;margin:6px 0 0}.footer-links{display:flex;gap:15px;flex-wrap:wrap}.footer-links a{font-size:.78rem;color:#f0e8d6}.share{position:fixed;right:18px;bottom:18px;z-index:12;box-shadow:0 8px 30px #0002}
-@media(max-width:820px){.links{display:none}.hero{padding:42px 0}.hero-grid,.feedback-grid{grid-template-columns:1fr;gap:30px}.hero-photo{min-height:0}.hero-photo img{height:500px}.section-head{display:block}.section-head p{margin-top:15px}.manifesto-grid{grid-template-columns:1fr}.promise:nth-child(even){border-left:0;padding-left:0}.value-grid,.gallery-grid{grid-template-columns:1fr}.gallery-card img{height:440px}.visit{grid-template-columns:40px 1fr}.visit time{grid-column:2;text-align:left}.election-grid{display:block}.timer{margin-top:25px}.timebox{flex:1;min-width:0}.footer-row{display:block}.footer-links{margin-top:18px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sharjeel Iqbal — AMUSU President 2026–27</title>
+    <style>
+      :root {
+        --green: #214a38;
+        --gold: #b79b62;
+        --paper: #f5f0e5;
+        --ink: #1d241f;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        background: var(--paper);
+        color: var(--ink);
+      }
+      .wrap {
+        width: min(1100px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+      header {
+        background: rgba(245, 240, 229, 0.96);
+        border-bottom: 1px solid rgba(32, 38, 31, 0.12);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+      }
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 74px;
+      }
+      .brand {
+        color: var(--green);
+        text-decoration: none;
+        font-weight: 800;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+      }
+      .hero {
+        padding: 56px 0 32px;
+      }
+      .hero-grid {
+        display: grid;
+        grid-template-columns: 1.1fr 0.9fr;
+        align-items: center;
+        gap: 32px;
+      }
+      .eyebrow {
+        color: var(--gold);
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+        font-weight: 800;
+      }
+      h1 {
+        margin: 18px 0 16px;
+        font-size: clamp(2.5rem, 5vw, 5rem);
+        line-height: 0.96;
+      }
+      h1 span {
+        color: var(--green);
+      }
+      .lead {
+        font-size: 1.15rem;
+        line-height: 1.7;
+        max-width: 34rem;
+      }
+      .hero-photo {
+        position: relative;
+      }
+      .hero-photo img {
+        display: block;
+        width: 100%;
+        border-radius: 22px;
+        box-shadow: 0 18px 40px rgba(27, 41, 34, 0.18);
+        border: 1px solid rgba(32, 38, 31, 0.12);
+      }
+      .photo-label {
+        position: absolute;
+        left: 22px;
+        right: 22px;
+        bottom: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        background: rgba(21, 35, 29, 0.7);
+        color: #fff;
+        padding: 16px 18px;
+        border-radius: 14px;
+        backdrop-filter: blur(6px);
+      }
+      .photo-label small {
+        display: block;
+        opacity: 0.75;
+      }
+      .photo-label strong {
+        display: block;
+        font-size: 1.1rem;
+      }
+      .photo-label span {
+        text-align: right;
+        font-size: 0.8rem;
+        line-height: 1.15;
+        letter-spacing: 0.08em;
+        font-weight: 800;
+      }
+      .editorial-art {
+        padding: 8px 0 32px;
+      }
+      .editorial-art img {
+        display: block;
+        width: 100%;
+        max-height: 420px;
+        border-radius: 16px;
+        border: 1px solid rgba(32, 38, 31, 0.12);
+        object-fit: cover;
+      }
+      .gallery {
+        padding: 20px 0 60px;
+      }
+      .gallery-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 18px;
+      }
+      .gallery-grid img {
+        display: block;
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+        border-radius: 14px;
+        border: 1px solid rgba(32, 38, 31, 0.12);
+        background: #e8e1d2;
+      }
+      @media (max-width: 700px) {
+        .hero-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="wrap nav">
+        <div class="brand">Sharjeel Iqbal</div>
+        <div class="brand">AMUSU President 2026–27</div>
+      </div>
+    </header>
 
-.editorial-art{padding:0 0 30px;background:var(--paper)}.editorial-art img{width:100%;height:auto;max-height:460px;object-fit:cover;border:1px solid var(--line)}.art-caption{display:flex;justify-content:space-between;gap:16px;padding:10px 2px;color:var(--muted);font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800}
-.issue-feature{background:#fffdf8}.issue-panel{display:grid;grid-template-columns:.9fr 1.1fr;gap:32px;padding:30px;background:#f5f0e5;border:1px solid var(--line);border-top:3px solid var(--gold)}.issue-panel h3{font:2rem/1.05 var(--serif);margin:10px 0}.issue-panel p{color:var(--muted);font-size:.9rem}.question-list{list-style:none;padding:0;margin:18px 0}.question-list li{padding:12px 0;border-bottom:1px solid var(--line);font-weight:700;font-size:.9rem}.question-list li:before{content:"?";display:inline-grid;place-items:center;width:24px;height:24px;margin-right:10px;background:var(--green);color:white;border-radius:50%;font-size:.78rem}
-.hall-section{background:#e8e1d2}.hall-group{margin:26px 0 38px}.hall-group-head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:15px}.hall-group-head h3{font:2rem var(--serif);margin:0}.hall-group-head p{font-size:.78rem;color:var(--muted);margin:0}.hall-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.hall-card{background:var(--paper2);border:1px solid var(--line);padding:18px;display:flex;flex-direction:column;min-height:225px}.hall-card h4{font-size:.98rem;margin:0 0 6px}.hall-card .hall-type{font-size:.63rem;letter-spacing:.13em;text-transform:uppercase;color:var(--green);font-weight:850}.hall-card p{font-size:.8rem;color:var(--muted);margin:8px 0 14px;flex:1}.hall-card textarea{min-height:72px;font-size:.8rem}.hall-card .save-note{font-size:.68rem;color:var(--muted);margin-top:8px}.owner-tools{background:#fffdf8;border:1px solid var(--line);padding:22px;margin-top:28px}.owner-tools h3{font:1.65rem var(--serif);margin-bottom:6px}.owner-tools p{font-size:.84rem;color:var(--muted)}.owner-tools code{background:#eee7d8;padding:2px 5px;border-radius:2px}
-@media(max-width:820px){.issue-panel{grid-template-columns:1fr;padding:22px}.hall-grid{grid-template-columns:1fr 1fr}.hall-group-head{display:block}.hall-group-head p{margin-top:6px}}
-@media(max-width:520px){.hall-grid{grid-template-columns:1fr}.art-caption{font-size:.57rem}}
+    <main>
+      <section class="hero">
+        <div class="wrap hero-grid">
+          <div>
+            <div class="eyebrow">Aligarh Muslim University · AMUSU 2026–27</div>
+            <h1>Leadership<br /><span>with purpose.</span></h1>
+            <p class="lead">A student-first vision built on listening, representation and responsible follow-through.</p>
+          </div>
+          <div class="hero-photo">
+            <img src="./sharjeel-primary.jpg" alt="Sharjeel Iqbal, primary campaign portrait in a light sherwani" />
+            <div class="photo-label">
+              <div>
+                <small>Candidate for</small>
+                <strong>Sharjeel Iqbal</strong>
+              </div>
+              <span>AMUSU<br />PRESIDENT</span>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="editorial-art">
+        <div class="wrap">
+          <img src="./amu-editorial-illustration.svg" alt="Original editorial illustration of an academic building with arches, trees and a sunrise" />
+        </div>
+      </section>
 
-.questions-section{padding:88px 0;background:#fffdf8}.question-cards{display:grid;grid-template-columns:1fr 1fr;gap:12px}.question-card{display:grid;grid-template-columns:54px 1fr 20px;gap:15px;align-items:start;padding:24px;border:1px solid var(--line);background:var(--paper);transition:transform .2s,border-color .2s}.question-card:hover{transform:translateY(-3px);border-color:var(--gold)}.question-number{font:2.2rem/1 var(--serif);color:var(--gold)}.question-label{font-size:.65rem;letter-spacing:.14em;text-transform:uppercase;color:var(--green);font-weight:850}.question-card h3{font:1.35rem/1.2 var(--serif);margin:8px 0}.question-card p{font-size:.84rem;color:var(--muted);margin:0}.question-arrow{color:var(--gold);font-size:1.3rem}.questions-signoff{display:flex;flex-wrap:wrap;gap:10px 20px;justify-content:center;padding:24px 12px;margin-top:22px;background:var(--green);color:#f5f0e5;font-size:.78rem;letter-spacing:.14em;font-weight:800}.questions-signoff strong{color:#e4cc92}
-.hall-intro{border:1px solid var(--line);border-left:3px solid var(--gold);padding:24px 28px;background:#fffdf8;margin:22px 0 36px}.hall-intro p{font-size:.9rem;color:var(--muted);margin:10px 0}.hall-intro small{display:block;margin-top:14px;color:var(--muted);font-size:.74rem}.hall-detail-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.hall-detail-card{border:1px solid var(--line);background:var(--paper2);padding:20px;min-width:0}.hall-detail-top{display:flex;justify-content:space-between;gap:10px;align-items:center;font-size:.62rem;letter-spacing:.1em;color:var(--green);font-weight:850}.hall-count{color:var(--muted);white-space:nowrap}.hall-detail-card h3{font:1.45rem/1.2 var(--serif);margin:12px 0}.hall-detail-card details{border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:12px 0}.hall-detail-card summary{cursor:pointer;display:flex;justify-content:space-between;gap:12px;font-size:.84rem;font-weight:800;list-style:none}.hall-detail-card summary::-webkit-details-marker{display:none}.hall-detail-card details[open] summary span{transform:rotate(45deg)}.concern-list{padding-left:20px;margin:14px 0 4px}.concern-list li{padding:0 0 11px 3px;color:var(--muted);font-size:.82rem}.concern-list li strong{color:var(--ink)}.hall-owner-edit{margin-top:15px}.hall-owner-edit label{display:block;font-size:.72rem;font-weight:800;margin-bottom:6px}.hall-owner-edit textarea{width:100%;min-height:64px;resize:vertical;background:#f8f4eb;border:1px solid var(--line);padding:10px;font:inherit;font-size:.75rem}.hall-closing{text-align:center;margin-top:35px;padding:28px 10px;background:var(--green);color:#f5f0e5;letter-spacing:.12em;font-size:.78rem;line-height:2}.hall-closing strong{color:#e4cc92}.gallery-grid-premium{grid-template-columns:repeat(3,minmax(0,1fr));align-items:start}.gallery-grid-premium .gallery-primary{grid-column:span 2}.gallery-grid-premium .gallery-primary img{height:650px;object-position:center 28%}.gallery-grid-premium .gallery-card img{width:100%;height:440px;object-fit:cover;display:block}.gallery-grid-premium .gallery-caption{padding:16px 8px 18px}.gallery-grid-premium .gallery-caption small{font-size:.62rem;letter-spacing:.12em;color:var(--green);font-weight:850}.gallery-grid-premium .gallery-caption h3{font:1.4rem var(--serif);margin:8px 0}.gallery-grid-premium .gallery-caption p{font-size:.8rem;color:var(--muted);margin:0}
-@media(max-width:820px){.question-cards{grid-template-columns:1fr}.hall-detail-grid{grid-template-columns:1fr}.gallery-grid-premium{grid-template-columns:repeat(2,minmax(0,1fr))}.gallery-grid-premium .gallery-primary{grid-column:span 2}.gallery-grid-premium .gallery-primary img{height:540px}.gallery-grid-premium .gallery-card img{height:360px}}
-@media(max-width:520px){.question-card{grid-template-columns:38px 1fr 16px;padding:18px 14px;gap:10px}.question-number{font-size:1.8rem}.gallery-grid-premium{grid-template-columns:1fr}.gallery-grid-premium .gallery-primary{grid-column:auto}.gallery-grid-premium .gallery-primary img,.gallery-grid-premium .gallery-card img{height:auto;max-height:620px;object-fit:cover}.hall-intro{padding:18px}}
-
-</style>
-</head>
-<body>
-<header><div class="wrap nav">
-<a class="brand" href="#home"><span class="seal">S</span><span>Sharjeel Iqbal<br>AMUSU President · 2026–27</span></a>
-<nav class="links"><a href="#manifesto">Manifesto</a><a href="#first100">First 100 Days</a><a href="#student-questions">5 Questions</a><a href="#cpc-concerns">CPC concerns</a><a href="#halls">Hall voices</a><a href="#visits">Campus visits</a><a href="#gallery">Gallery</a><a href="#feedback">Student concerns</a></nav>
-<a class="btn" href="#feedback">Raise a concern ↗</a>
-</div></header>
-<main>
-<section class="hero" id="home"><div class="wrap hero-grid">
-<div>
-<div class="eyebrow">Aligarh Muslim University · AMUSU 2026–27</div>
-<h1>Leadership<br>with <span>purpose.</span></h1>
-<p class="lead">A student-first vision built on listening, representation and responsible follow-through. A voice for students across departments, halls and the wider AMU community.</p>
-<div class="slogan">“Awaz Aapki.<br><em>Zimmedari Meri.</em>”</div>
-<div class="second-slogan">“Ilaaka Nahi, Alig. Lobby Nahi, Liyaqat.”</div>
-<div class="hero-actions"><a class="btn" href="#manifesto">Explore the manifesto ↓</a><a class="btn outline" href="#gallery">Meet Sharjeel</a></div>
-<p class="micro">Listen first. Speak clearly. Follow up responsibly.</p>
-</div>
-<div class="hero-photo"><img src="./sharjeel-primary.jpg" alt="Sharjeel Iqbal, primary campaign portrait in a light sherwani">
-<div class="photo-label"><div><small>Candidate for</small><strong>Sharjeel Iqbal</strong></div><span>AMUSU<br>PRESIDENT</span></div></div>
-</div></section>
-
-<section class="editorial-art" aria-label="AMU-inspired campus illustration"><div class="wrap">
-<img src="./amu-editorial-illustration.svg" alt="Original editorial illustration of an academic building with arches, trees and a sunrise in forest green, ivory and muted gold">
-<div class="art-caption"><span>AMU · HERITAGE & STUDENT VOICE</span><span>A student-first vision</span></div>
-</div></section>
-
-<div class="marquee"><span>Awaz Aapki ✦ Zimmedari Meri ✦ Ilaaka Nahi, Alig ✦ Lobby Nahi, Liyaqat ✦ </span><span>Awaz Aapki ✦ Zimmedari Meri ✦ Ilaaka Nahi, Alig ✦ Lobby Nahi, Liyaqat ✦ </span></div>
-
-<section class="manifesto" id="manifesto"><div class="wrap">
-<div class="section-head"><div><div class="kicker">01 / Commitments</div><h2>A voice that listens.<br>A plan that follows through.</h2></div><p>Representation should be more than a slogan. These are proposed priorities to discuss with students and pursue through appropriate university channels—not promises of outcomes beyond a student representative’s control.</p></div>
-<div class="manifesto-grid">
-<article class="promise"><div class="num">01</div><div><small>Academic support</small><h3>Clear information, fewer surprises</h3><p>Raise recurring concerns about timetables, examination notices, results and academic communication with the relevant offices.</p></div></article>
-<article class="promise"><div class="num">02</div><div><small>Department representation</small><h3>Every department deserves a voice</h3><p>Make it easier to share department-level concerns and track whether they have been referred and answered.</p></div></article>
-<article class="promise"><div class="num">03</div><div><small>Hostel and hall life</small><h3>Listen where students live</h3><p>Bring forward concerns about dining, cleanliness, maintenance, water and shared facilities through appropriate channels.</p></div></article>
-<article class="promise"><div class="num">04</div><div><small>Campus facilities</small><h3>Document problems, not just complaints</h3><p>Build a clear issue log for concerns about libraries, laboratories, classrooms, Wi-Fi and common spaces.</p></div></article>
-<article class="promise"><div class="num">05</div><div><small>Student welfare</small><h3>Respect, dignity and fair treatment</h3><p>Listen carefully and help students find the appropriate official support or grievance channel when needed.</p></div></article>
-<article class="promise"><div class="num">06</div><div><small>Career readiness</small><h3>Make opportunities easier to find</h3><p>Advocate for clearer access to information about internships, career events, skill development and placement resources.</p></div></article>
-<article class="promise"><div class="num">07</div><div><small>Transparency</small><h3>Updates students can follow</h3><p>Share periodic summaries of issues raised, referrals made, responses received and matters still pending—without exposing private details.</p></div></article>
-<article class="promise"><div class="num">08</div><div><small>Accountability</small><h3>Honest progress, not empty claims</h3><p>Be clear about what has been done, what needs university approval and what still requires work.</p></div></article>
-</div></div></section>
-
-
-<section id="first100" class="manifesto"><div class="wrap">
-<div class="section-head"><div><div class="kicker">02 / The first 100 days</div><h2>Listen. Organise.<br>Report back.</h2></div><p>A practical proposed roadmap for the first 100 days if elected. These are priorities to pursue through student consultation and the appropriate university channels—not guaranteed outcomes or claims of authority over university decisions.</p></div>
-<div class="manifesto-grid">
-<article class="promise"><div class="num">01</div><div><small>Days 1–15 · Listen</small><h3>Open the student listening desk</h3><p>Set up clear channels for students to raise academic, hostel, facilities and welfare concerns; publish how submissions will be handled and who can access them.</p></div></article>
-<article class="promise"><div class="num">02</div><div><small>Days 1–30 · Map</small><h3>Build a campus issues register</h3><p>Collect and group recurring concerns from departments and halls, remove duplicate reports, and record which office or authority is appropriate for each issue.</p></div></article>
-<article class="promise"><div class="num">03</div><div><small>Days 15–40 · Meet</small><h3>Department and hall consultations</h3><p>Hold or coordinate listening meetings where feasible, with published dates only after confirmation and accessible ways for students to contribute.</p></div></article>
-<article class="promise"><div class="num">04</div><div><small>Days 25–50 · Prioritise</small><h3>Publish the top student concerns</h3><p>Share an anonymised summary of the most repeated issues and proposed next steps, without exposing names, enrolment numbers or sensitive complaint details.</p></div></article>
-<article class="promise"><div class="num">05</div><div><small>Days 35–70 · Refer</small><h3>Submit documented representations</h3><p>Forward prioritised, evidence-based concerns to the relevant university offices and seek acknowledgements or meetings where the process allows.</p></div></article>
-<article class="promise"><div class="num">06</div><div><small>Days 50–80 · Support</small><h3>Make student resources easier to find</h3><p>Compile reliable official links for academic notices, scholarships, career resources and grievance channels, and flag information gaps to the relevant offices.</p></div></article>
-<article class="promise"><div class="num">07</div><div><small>Days 70–90 · Review</small><h3>Check status and follow up</h3><p>Track issues as submitted, acknowledged, under review, resolved or awaiting response—using only statuses that can be verified.</p></div></article>
-<article class="promise"><div class="num">08</div><div><small>Days 90–100 · Report</small><h3>Publish a 100-day progress report</h3><p>Report what was heard, what was formally raised, what changed, what remains pending and the next steps. Protect confidential information throughout.</p></div></article>
-</div>
-<div class="privacy" style="margin-top:24px"><strong>Our standard: visible work, honest reporting.</strong> The 100-day roadmap will be updated with confirmed actions and evidence. University decisions, approvals and timelines remain with the relevant authorities.</div>
-</div></section>
-
-<section id="student-questions" class="questions-section"><div class="wrap">
-<div class="section-head"><div><div class="kicker">03 / Questions that matter</div><h2>Five questions every<br>student deserves answered.</h2></div><p>Clear questions are the beginning of accountable representation. Here are five campus-wide priorities for open discussion, specific proposals and verifiable follow-up.</p></div>
-<div class="question-cards">
-<article class="question-card"><span class="question-number">01</span><div><div class="question-label">Student safety</div><h3>How will we make campus safer for everyone?</h3><p>What concrete steps can be proposed to strengthen the safety of every student, especially women on campus, while respecting privacy and due process?</p></div><span class="question-arrow">↗</span></article>
-<article class="question-card"><span class="question-number">02</span><div><div class="question-label">Proper–Annexe system</div><h3>What needs to change in the Proper–Annexe system?</h3><p>What is our stand on the Proper–Annexe system, particularly at Hadi Hasan Hall? Why are students still facing problems, and what practical solutions should be proposed?</p></div><span class="question-arrow">↗</span></article>
-<article class="question-card"><span class="question-number">03</span><div><div class="question-label">Transparency & accountability</div><h3>How will students know what is being done?</h3><p>How can concerns, representations, responses and pending matters be documented and reported back to students in a clear, regular and verifiable way?</p></div><span class="question-arrow">↗</span></article>
-<article class="question-card"><span class="question-number">04</span><div><div class="question-label">Fee hike & placements</div><h3>What support can students expect?</h3><p>How should student concerns about fee increases be raised, and what practical steps can improve access to placement information, career support and opportunities?</p></div><span class="question-arrow">↗</span></article>
-<article class="question-card"><span class="question-number">05</span><div><div class="question-label">Restoring AMU’s legacy</div><h3>How do we honour the legacy through action?</h3><p>How can we strengthen AMU’s academic spirit, inclusive campus culture, student voice and shared responsibility for its future?</p></div><span class="question-arrow">↗</span></article>
-</div>
-<div class="questions-signoff"><span>CLEAR QUESTIONS.</span><span>HONEST ANSWERS.</span><strong>REAL ACCOUNTABILITY.</strong></div>
-</div></section>
-<section class="issue-feature" id="cpc-concerns"><div class="wrap">
-<div class="section-head"><div><div class="kicker">04 / Student concerns · AMU</div><h2>CPC students’<br>concerns deserve answers.</h2></div><p>Questions raised by CPC students about AMUSU election voting eligibility and university hall allotment. The campaign calls for transparent rules and a clear response from the administration.</p></div>
-<div class="issue-panel">
-<div><div class="kicker">CPC STUDENTS’ CONCERNS | AMU</div><h3>Fair hearing. Transparent rules. Clear answers.</h3><p>CPC students have raised concerns regarding the absence of voting rights in AMUSU elections despite being internal students, along with the non-allotment of university halls.</p><p><strong>Our stand:</strong> Every student’s concerns deserve a fair hearing, transparent rules, and a clear response from the administration.</p></div>
-<div><h3>Key questions</h3><ul class="question-list"><li>Why are CPC students not eligible to vote?</li><li>Why are halls not allotted to them?</li><li>What do the official rules say, and what solution can be provided?</li></ul><p class="micro">The questions are presented as concerns requiring clarification. Confirm the applicable official rules and the administration’s response before publishing claims about eligibility or policy.</p></div>
-</div>
-</div></section>
-
-
-<section class="values"><div class="wrap"><div class="section-head"><div><div class="kicker">02 / The principles</div><h2>Beyond the campaign.<br>Built around students.</h2></div><p>A stronger student voice begins with fairness, access and the discipline to report back.</p></div>
-<div class="value-grid">
-<article class="value"><div class="big">01</div><h3>Accessible representation</h3><p>Make space for concerns from students across departments, halls and backgrounds.</p></article>
-<article class="value"><div class="big">02</div><h3>Confidential handling</h3><p>Keep sensitive concerns private, limit access and avoid sharing identifying details publicly.</p></article>
-<article class="value"><div class="big">03</div><h3>Visible follow-up</h3><p>Communicate progress responsibly while protecting the people who raised concerns.</p></article>
-</div></div></section>
-
-
-<section class="visits" id="visits"><div class="wrap">
-<div class="section-head"><div><div class="kicker">03 / Across campus</div><h2>Present across campus.<br>Accountable to students.</h2></div><p>This section is ready for verified department and hall visits. Add only confirmed meetings and actual dates—no invented events.</p></div>
-<div class="visit-list">
-<article class="visit"><div class="n">01</div><div><h3>Department conversations</h3><p>One-to-one conversations to hear academic and department-level concerns.</p></div><time>Publish confirmed date</time></article>
-<article class="visit"><div class="n">02</div><div><h3>Hall interactions</h3><p>Listening to concerns about everyday student life and shared facilities.</p></div><time>Publish confirmed date</time></article>
-<article class="visit"><div class="n">03</div><div><h3>Follow-up updates</h3><p>Report what was heard and the next steps, without exposing private details.</p></div><time>Update after follow-up</time></article>
-</div><p class="notice">Replace these placeholders with actual visit details before launch. Obtain consent before publishing identifiable student photos or quotations.</p>
-</div></section>
-
-
-<section class="hall-section" id="halls"><div class="wrap">
-<div class="section-head"><div><div class="kicker">06 / Hall-by-hall representation</div><h2>Every hall.<br>Every concern deserves a hearing.</h2></div><p>A structured overview of concerns shared for AMU’s Boys’ and Girls’ Halls of Residence. Open each hall to read its list and see where further questions or verified updates can be added.</p></div>
-<div class="hall-intro"><strong>AMU Halls of Residence — Student Concerns and Representation</strong><p>Every student deserves a safe, hygienic and well-maintained residential environment. This platform brings together hall-wise concerns raised by students, from dining and room allotment to sanitation, infrastructure, connectivity, security and student safety.</p><p><b>Our objective:</b> Promote transparent student representation, responsible administration and practical solutions through systematic documentation.</p><p><b>Our commitment:</b> Every concern deserves a fair hearing. Every complaint deserves appropriate attention. Every student deserves dignity, safety and a better living environment.</p><small>These are concerns supplied for the campaign and have not been independently verified. Publish updates about actions taken only when confirmed. Avoid including identifying or sensitive personal details.</small></div>
-<div class="hall-group"><div class="hall-group-head"><h3>Boys’ Halls of Residence</h3><p>13 halls · hall-wise concerns</p></div><div class="hall-detail-grid"><article class="hall-detail-card" id="hall-aftab-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 01 · STUDENT CONCERNS</span><span class="hall-count">05 points</span></div>
-<h3>Aftab Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Room allotment:</strong> Issues concerning the allotment of hostel rooms.</li><li><strong>Hygiene &amp; mosquito control:</strong> Inadequate cleanliness and a severe mosquito problem, raising concerns about mosquito-borne diseases such as malaria.</li><li><strong>Annexe ventilation:</strong> Lack of proper ventilation in the Annexe.</li><li><strong>Security &amp; bicycle parking:</strong> Reports of frequent bicycle thefts and the lack of designated bicycle parking facilities.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-aftab-hall">Additional questions / verified updates</label><textarea id="owner-aftab-hall" placeholder="Add questions, responses or verified updates for Aftab Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-allama-iqbal-hall-boarding-house">
-<div class="hall-detail-top"><span>BOYS’ HALL 02 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Allama Iqbal Hall Boarding House</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Accessibility:</strong> A request for an additional gate near the hall to reduce the approximately 2 km detour students report when using the main gate.</li><li><strong>Infrastructure:</strong> Inadequate infrastructure and the need for essential facility improvements.</li><li><strong>Playground lighting:</strong> Insufficient lighting in the playground, affecting visibility and use after dark.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-allama-iqbal-hall-boarding-house">Additional questions / verified updates</label><textarea id="owner-allama-iqbal-hall-boarding-house" placeholder="Add questions, responses or verified updates for Allama Iqbal Hall Boarding House in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-hadi-hasan-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 03 · STUDENT CONCERNS</span><span class="hall-count">05 points</span></div>
-<h3>Hadi Hasan Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>First-year accommodation:</strong> Concerns about the availability of hostel rooms for first-year students.</li><li><strong>Annexe facilities:</strong> Inadequate maintenance and non-functional facilities in the Annexe.</li><li><strong>Doctors’ workload:</strong> Concerns regarding reported 72-hour work schedules and the need for appropriate working hours and rest periods.</li><li><strong>CCTV surveillance:</strong> A request for CCTV cameras at entry and exit points.</li><li><strong>Doctors’ safety:</strong> Improved safety and security measures for doctors residing or working at the hall.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-hadi-hasan-hall">Additional questions / verified updates</label><textarea id="owner-hadi-hasan-hall" placeholder="Add questions, responses or verified updates for Hadi Hasan Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-mohammad-habib-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 04 · STUDENT CONCERNS</span><span class="hall-count">03 points</span></div>
-<h3>Mohammad Habib Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Room size:</strong> Inadequate room space and overcrowding concerns.</li><li><strong>Hygiene &amp; sanitation:</strong> The need for improved cleanliness throughout the hall.</li><li><strong>Bathroom facilities:</strong> Poor bathroom conditions requiring maintenance and renovation.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-mohammad-habib-hall">Additional questions / verified updates</label><textarea id="owner-mohammad-habib-hall" placeholder="Add questions, responses or verified updates for Mohammad Habib Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-mohsinul-mulk-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 05 · STUDENT CONCERNS</span><span class="hall-count">05 points</span></div>
-<h3>Mohsinul Mulk Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Sports facilities:</strong> Maintenance of the cricket and basketball grounds.</li><li><strong>Ground maintenance:</strong> More regular grass cutting and landscaping on sports grounds.</li><li><strong>Electricity supply:</strong> Frequent power cuts and the need for a more reliable electricity supply.</li><li><strong>Hygiene &amp; sanitation:</strong> Inadequate cleanliness and sanitation.</li><li><strong>Stray dog management:</strong> Reports of dog bites and the need for effective measures to improve residents’ safety.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-mohsinul-mulk-hall">Additional questions / verified updates</label><textarea id="owner-mohsinul-mulk-hall" placeholder="Add questions, responses or verified updates for Mohsinul Mulk Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-nadeem-tarin-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 06 · STUDENT CONCERNS</span><span class="hall-count">06 points</span></div>
-<h3>Nadeem Tarin Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Canteen facilities:</strong> Lack of a canteen within the hall.</li><li><strong>Water leakage:</strong> Ceiling leakage requiring repairs and waterproofing.</li><li><strong>Wi-Fi connectivity:</strong> Unreliable or inadequate internet connectivity.</li><li><strong>Mosquito control:</strong> Excessive mosquito infestation and the need for effective pest control.</li><li><strong>Parking facilities:</strong> Lack of adequate designated parking space.</li><li><strong>Gym &amp; common room:</strong> Inadequate or poorly maintained equipment in the gym and common room.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-nadeem-tarin-hall">Additional questions / verified updates</label><textarea id="owner-nadeem-tarin-hall" placeholder="Add questions, responses or verified updates for Nadeem Tarin Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-ross-masood-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 07 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Ross Masood Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Annexe conditions:</strong> Poor maintenance and inadequate facilities in the Annexe.</li><li><strong>Lighting:</strong> Insufficient lighting in the hall premises.</li><li><strong>Security:</strong> A request for CCTV cameras to improve surveillance and residents’ safety.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-ross-masood-hall">Additional questions / verified updates</label><textarea id="owner-ross-masood-hall" placeholder="Add questions, responses or verified updates for Ross Masood Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-sir-shah-sulaiman-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 08 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Sir Shah Sulaiman Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Annexe accommodation:</strong> Issues concerning room availability and allotment in the Annexe.</li><li><strong>Canteen facilities:</strong> Lack of adequate canteen facilities.</li><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Security:</strong> A request for CCTV cameras to strengthen surveillance and improve safety.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-sir-shah-sulaiman-hall">Additional questions / verified updates</label><textarea id="owner-sir-shah-sulaiman-hall" placeholder="Add questions, responses or verified updates for Sir Shah Sulaiman Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-sir-syed-hall-north">
-<div class="hall-detail-top"><span>BOYS’ HALL 09 · STUDENT CONCERNS</span><span class="hall-count">06 points</span></div>
-<h3>Sir Syed Hall (North)</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Hall &amp; Annexe hygiene:</strong> Inadequate cleanliness and sanitation throughout the hall and its Annexe.</li><li><strong>Bridge Course Annexe:</strong> The need for proper hygiene, sanitation and regular maintenance.</li><li><strong>Room allotment &amp; shifting:</strong> Difficulties and concerns concerning room allotment and room transfers.</li><li><strong>Washrooms &amp; bathrooms:</strong> Poor sanitary facilities requiring repair and renovation.</li><li><strong>Security &amp; safety:</strong> Concerns about security arrangements and safety measures.</li><li><strong>Staff conduct:</strong> Concerns about discourteous behaviour and the need for respectful treatment of residents.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-sir-syed-hall-north">Additional questions / verified updates</label><textarea id="owner-sir-syed-hall-north" placeholder="Add questions, responses or verified updates for Sir Syed Hall (North) in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-sir-syed-hall-south">
-<div class="hall-detail-top"><span>BOYS’ HALL 10 · STUDENT CONCERNS</span><span class="hall-count">06 points</span></div>
-<h3>Sir Syed Hall (South)</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Hall &amp; Annexe hygiene:</strong> Inadequate cleanliness and sanitation throughout the hall and its Annexe.</li><li><strong>Bridge Course Annexe:</strong> The need for proper hygiene, sanitation and regular maintenance.</li><li><strong>Room allotment &amp; shifting:</strong> Difficulties and concerns concerning room allotment and room transfers.</li><li><strong>Washrooms &amp; bathrooms:</strong> Poor sanitary facilities requiring repair and renovation.</li><li><strong>Security &amp; safety:</strong> Concerns about security arrangements and safety measures.</li><li><strong>Staff conduct:</strong> Concerns about discourteous behaviour and the need for respectful treatment of residents.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-sir-syed-hall-south">Additional questions / verified updates</label><textarea id="owner-sir-syed-hall-south" placeholder="Add questions, responses or verified updates for Sir Syed Hall (South) in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-sir-ziauddin-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 11 · STUDENT CONCERNS</span><span class="hall-count">07 points</span></div>
-<h3>Sir Ziauddin Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Drinking water:</strong> Lack of adequate drinking water coolers.</li><li><strong>Common room:</strong> Lack of a properly equipped common room.</li><li><strong>Reading room:</strong> Inadequate reading facilities and the need for a suitable study space.</li><li><strong>Floor cleanliness:</strong> Concerns about floor hygiene, including reports of cat faeces.</li><li><strong>Annexe conditions:</strong> Inadequate maintenance and facilities in the Annexe.</li><li><strong>Parking facilities:</strong> Lack of adequate designated parking space.</li><li><strong>Security:</strong> A request for CCTV cameras to improve surveillance and residents’ safety.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-sir-ziauddin-hall">Additional questions / verified updates</label><textarea id="owner-sir-ziauddin-hall" placeholder="Add questions, responses or verified updates for Sir Ziauddin Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-viqarul-mulk-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 12 · STUDENT CONCERNS</span><span class="hall-count">05 points</span></div>
-<h3>Viqarul Mulk Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Hygiene &amp; sanitation:</strong> Inadequate cleanliness and sanitation.</li><li><strong>Building maintenance:</strong> Concerns about building management, maintenance and infrastructure upkeep.</li><li><strong>Canteen facilities:</strong> Lack of adequate canteen facilities.</li><li><strong>Annexe conditions:</strong> Poor maintenance and inadequate facilities in the Annexe.</li><li><strong>Drinking water:</strong> Lack of sufficient drinking water coolers.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-viqarul-mulk-hall">Additional questions / verified updates</label><textarea id="owner-viqarul-mulk-hall" placeholder="Add questions, responses or verified updates for Viqarul Mulk Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-dr-b-r-ambedkar-hall">
-<div class="hall-detail-top"><span>BOYS’ HALL 13 · STUDENT CONCERNS</span><span class="hall-count">03 points</span></div>
-<h3>Dr. B. R. Ambedkar Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Bathroom facilities:</strong> Poor bathroom conditions requiring maintenance and renovation.</li><li><strong>Wi-Fi connectivity:</strong> Internet connectivity issues affecting students.</li><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-dr-b-r-ambedkar-hall">Additional questions / verified updates</label><textarea id="owner-dr-b-r-ambedkar-hall" placeholder="Add questions, responses or verified updates for Dr. B. R. Ambedkar Hall in the website source."></textarea></div>
-</article></div></div>
-<div class="hall-group"><div class="hall-group-head"><h3>Girls’ Halls of Residence</h3><p>6 halls · hall-wise concerns</p></div><div class="hall-detail-grid"><article class="hall-detail-card" id="hall-abdullah-hall">
-<div class="hall-detail-top"><span>GIRLS’ UNION 01 · STUDENT CONCERNS</span><span class="hall-count">03 points</span></div>
-<h3>Abdullah Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Administrative note:</strong> Abdullah Hall comes under the Girls’ Union.</li><li><strong>Student representation:</strong> A dedicated platform for residents to submit concerns and suggestions.</li><li><strong>Hall updates:</strong> Space for verified updates and follow-up.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-abdullah-hall">Additional questions / verified updates</label><textarea id="owner-abdullah-hall" placeholder="Add questions, responses or verified updates for Abdullah Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-indira-gandhi-hall">
-<div class="hall-detail-top"><span>GIRLS’ HALL 02 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Indira Gandhi Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Safety &amp; security:</strong> Strengthening safety measures for a secure residential environment.</li><li><strong>CCTV surveillance:</strong> Installation and maintenance of CCTV cameras at appropriate locations.</li><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Room allotment:</strong> Concerns regarding room availability and the allotment process.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-indira-gandhi-hall">Additional questions / verified updates</label><textarea id="owner-indira-gandhi-hall" placeholder="Add questions, responses or verified updates for Indira Gandhi Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-sarojini-naidu-hall-sn-hall">
-<div class="hall-detail-top"><span>GIRLS’ HALL 03 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Sarojini Naidu Hall (SN Hall)</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Safety &amp; security:</strong> Strengthening safety measures for a secure residential environment.</li><li><strong>CCTV surveillance:</strong> Installation and maintenance of CCTV cameras at appropriate locations.</li><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Room allotment:</strong> Concerns regarding room availability and the allotment process.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-sarojini-naidu-hall-sn-hall">Additional questions / verified updates</label><textarea id="owner-sarojini-naidu-hall-sn-hall" placeholder="Add questions, responses or verified updates for Sarojini Naidu Hall (SN Hall) in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-begum-sultan-jahan-hall">
-<div class="hall-detail-top"><span>GIRLS’ HALL 04 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Begum Sultan Jahan Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Safety &amp; security:</strong> Strengthening safety measures for a secure residential environment.</li><li><strong>CCTV surveillance:</strong> Installation and maintenance of CCTV cameras at appropriate locations.</li><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Room allotment:</strong> Concerns regarding room availability and the allotment process.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-begum-sultan-jahan-hall">Additional questions / verified updates</label><textarea id="owner-begum-sultan-jahan-hall" placeholder="Add questions, responses or verified updates for Begum Sultan Jahan Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-bibi-fatima-hall">
-<div class="hall-detail-top"><span>GIRLS’ HALL 05 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Bibi Fatima Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Safety &amp; security:</strong> Strengthening safety measures for a secure residential environment.</li><li><strong>CCTV surveillance:</strong> Installation and maintenance of CCTV cameras at appropriate locations.</li><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Room allotment:</strong> Concerns regarding room availability and the allotment process.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-bibi-fatima-hall">Additional questions / verified updates</label><textarea id="owner-bibi-fatima-hall" placeholder="Add questions, responses or verified updates for Bibi Fatima Hall in the website source."></textarea></div>
-</article><article class="hall-detail-card" id="hall-begum-azzezun-nisa-hall">
-<div class="hall-detail-top"><span>GIRLS’ HALL 06 · STUDENT CONCERNS</span><span class="hall-count">04 points</span></div>
-<h3>Begum Azzezun Nisa Hall</h3>
-<details><summary>View concerns <span>＋</span></summary><ul class="concern-list"><li><strong>Safety &amp; security:</strong> Strengthening safety measures for a secure residential environment.</li><li><strong>CCTV surveillance:</strong> Installation and maintenance of CCTV cameras at appropriate locations.</li><li><strong>Dining facilities:</strong> Poor food quality and the need for improved dining services.</li><li><strong>Room allotment:</strong> Concerns regarding room availability and the allotment process.</li></ul></details>
-<div class="hall-owner-edit"><label for="owner-begum-azzezun-nisa-hall">Additional questions / verified updates</label><textarea id="owner-begum-azzezun-nisa-hall" placeholder="Add questions, responses or verified updates for Begum Azzezun Nisa Hall in the website source."></textarea></div>
-</article></div></div>
-<div class="owner-tools"><h3>Head user · Content management</h3><p>To change or add published content, edit the relevant card in <code>index.html</code> using the authorised GitHub account, then commit the changes. A connected Vercel project should redeploy automatically. The text areas shown here are prompts/layout fields only; they do not save or publish content by themselves. A secure live admin dashboard requires a real authenticated CMS/backend.</p></div>
-<div class="hall-closing">EVERY HALL. EVERY CONCERN.<br><strong>EVERY STUDENT DESERVES TO BE HEARD.</strong></div>
-</div></section>
-<section id="gallery" class="gallery-section"><div class="wrap">
-<div class="section-head"><div><div class="kicker">07 / Candidate gallery</div><h2>Sharjeel Iqbal.<br>Campus. Conversations. Commitment.</h2></div><p>A visual collection of Sharjeel’s campus presence and campaign moments. The featured portrait leads the gallery, followed by campus and student-interaction photographs.</p></div>
-<div class="gallery-grid gallery-grid-premium">
-<article class="gallery-card gallery-primary"><img src="assets/sharjeel-primary.jpg" alt="Sharjeel Iqbal, primary campaign portrait in a light sherwani"><div class="gallery-caption"><small>FEATURED PORTRAIT · 01</small><h3>Sharjeel Iqbal</h3><p>Sharjeel Iqbal for Presidentship 26–27</p></div></article>
-<article class="gallery-card"><img src="assets/sharjeel-student-interaction.webp" alt="Sharjeel Iqbal greeting students on campus"><div class="gallery-caption"><small>STUDENT INTERACTION · 02</small><h3>Listening begins with meeting</h3><p>Sharjeel Iqbal for Presidentship 26–27</p></div></article>
-<article class="gallery-card"><img src="assets/sharjeel-campus-arches.webp" alt="Sharjeel Iqbal standing under red-brick arches"><div class="gallery-caption"><small>CAMPUS HERITAGE · 03</small><h3>Rooted in AMU</h3><p>Sharjeel Iqbal for Presidentship 26–27</p></div></article>
-<article class="gallery-card"><img src="assets/sharjeel-amu-building.webp" alt="Sharjeel Iqbal in front of a red-brick AMU building"><div class="gallery-caption"><small>THE CAMPUS · 04</small><h3>History lives here</h3><p>Sharjeel Iqbal for Presidentship 26–27</p></div></article>
-<article class="gallery-card"><img src="assets/sharjeel-campaign-poster.webp" alt="Campaign-style photograph featuring Sharjeel Iqbal"><div class="gallery-caption"><small>CAMPAIGN MOMENT · 05</small><h3>Purpose in every step</h3><p>Sharjeel Iqbal for Presidentship 26–27</p></div></article>
-<article class="gallery-card"><img src="assets/sharjeel-campus-gate.webp" alt="Sharjeel Iqbal at the campus gate with students"><div class="gallery-caption"><small>CAMPUS PRESENCE · 06</small><h3>People before positions</h3><p>Sharjeel Iqbal for Presidentship 26–27</p></div></article>
-<article class="gallery-card"><img src="assets/sharjeel-with-student.webp" alt="Sharjeel Iqbal with another student on campus"><div class="gallery-caption"><small>WITH THE STUDENTS · 07</small><h3>Conversations matter</h3><p>Sharjeel Iqbal for Presidentship 26–27</p></div></article>
-</div></div></section>
-<section class="feedback" id="feedback"><div class="wrap feedback-grid">
-<div class="feedback-copy"><div class="kicker">05 / Student grievance desk</div><h2>Awaz aapki.<br>We’ll treat it with care.</h2>
-<p>Use this form to share a concern about student life, academics, facilities or welfare. The form requests your name and enrolment number, so it is confidential rather than anonymous.</p>
-<div class="privacy"><strong>Confidentiality matters.</strong> Your details should be accessible only to authorised people handling the concern, never published on the campaign website. Please do not include passwords, financial details or unnecessary sensitive information.<small>Important: the form is not connected to a secure submission service yet. Do not enter real personal details until the campaign configures and tests a suitable backend with access controls and a privacy notice.</small></div>
-</div>
-<div class="form-card"><h3>Student concern form</h3><p>Required fields are marked. A secure backend must be configured before this form can receive submissions.</p>
-<form id="grievanceForm">
-<div><label for="studentName">Full name *</label><input id="studentName" name="studentName" autocomplete="name" required maxlength="120" placeholder="Enter your full name"></div>
-<div><label for="enrolment">Enrolment number *</label><input id="enrolment" name="enrolment" required maxlength="80" placeholder="Enter your enrolment number"><div class="field-hint">Used to identify your submission for follow-up. Keep this information private.</div></div>
-<div><label for="department">Department / hall (optional)</label><input id="department" name="department" maxlength="120" placeholder="Department or hall"></div>
-<div><label for="topic">Concern category *</label><select id="topic" name="topic" required><option value="">Choose a category</option><option>Academic issue</option><option>Department facilities</option><option>Hostel / hall concern</option><option>Student welfare</option><option>Administrative process</option><option>Other</option></select></div>
-<div><label for="problem">Describe your concern *</label><textarea id="problem" name="problem" required minlength="10" maxlength="3000" placeholder="Explain the problem and what kind of follow-up would help"></textarea></div>
-<label class="consent"><input type="checkbox" id="privacyConsent" required><span>I understand my name and enrolment number are identifying information, and I agree to share them for follow-up on this concern.</span></label>
-<button class="btn" type="submit">Prepare submission ↗</button>
-<div class="status" id="formStatus" role="status" aria-live="polite"></div>
-<div class="form-foot">This demo does not transmit or save form data. The button will explain the setup requirement until a secure backend is connected.</div>
-</form></div>
-</div></section>
-
-<section class="election" id="election"><div class="wrap election-grid"><div><div class="kicker" style="color:#263326">AMUSU 2026–27</div><h2>Election day is approaching.</h2><p><strong>5 November 2026</strong> · Countdown target: 9:00 AM IST (placeholder time). Verify the official polling date, exact time, eligibility and voting instructions against AMU notices before publication.</p></div>
-<div class="timer" aria-label="Countdown to election"><div class="timebox"><strong id="days">—</strong><span>Days</span></div><div class="timebox"><strong id="hours">—</strong><span>Hours</span></div><div class="timebox"><strong id="minutes">—</strong><span>Minutes</span></div><div class="timebox"><strong id="seconds">—</strong><span>Seconds</span></div></div></div></section>
-</main>
-
-<section id="owner-edit" class="values"><div class="wrap">
-<div class="section-head"><div><div class="kicker">Owner access</div><h2>Your campaign.<br>Your edits.</h2></div><p>Only the repository owner or collaborators you explicitly authorise through GitHub can change the published website files. There is no public edit button. Website design and build credit: Hassan Shams · @hassan_sabir08. Social media marketing and digital campaign presence: Hassan Shams.</p></div>
-<div class="value-grid">
-<article class="value"><div class="big">01</div><h3>Sign in as the owner</h3><p>Use the GitHub account that owns the SHARJEEL-IQBAL repository. Never share your password or access token.</p><p style="margin-top:15px"><a class="btn" href="https://github.com/hassan189shams/SHARJEEL-IQBAL" target="_blank" rel="noopener noreferrer">Open owner repository ↗</a></p></article>
-<article class="value"><div class="big">02</div><h3>Edit website content</h3><p>In GitHub, open <code>index.html</code>, choose the pencil-shaped Edit button, change the text carefully, then commit changes. Keep the assets folder and filenames intact.</p></article>
-<article class="value"><div class="big">03</div><h3>Publish updates</h3><p>After you commit changes, Vercel can automatically redeploy the site if this repository is connected. Review the live page after each update.</p></article>
-</div>
-<div class="privacy" style="margin-top:24px"><strong>Security note</strong> This static website does not include a password-protected admin dashboard. Editing is restricted by GitHub account permissions. If you want an on-site CMS/admin dashboard, it must be set up with real authentication and server-side permissions; a password field or browser-only lock would not be secure.</div>
-</div></section>
-
-<footer><div class="wrap footer-row"><div><div class="footer-brand">SHARJEEL IQBAL · AMUSU PRESIDENT 2026–27</div><p>Awaz Aapki. Zimmedari Meri.</p><p style="margin-top:15px;font-size:.72rem;color:#e1d3b2">Website crafted by <strong>Hassan Shams</strong> · Instagram <a href="https://www.instagram.com/hassan_sabir09/" target="_blank" rel="noopener noreferrer" style="color:#f8f3e8">@hassan_sabir09</a><br>Social media marketing & campaign digital presence by <strong>Hassan Shams</strong>.</p></div><div class="footer-links"><a href="#manifesto">Manifesto</a><a href="#visits">Campus visits</a><a href="#gallery">Gallery</a><a href="#owner-edit">Owner editing</a><a href="https://www.instagram.com/sharjeel_iqbal4president?srtk=MXJsMGFlOWhmeTE4Yg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#" id="shareSite">Share site ↗</a></div></div></footer>
-<button class="btn gold share" id="whatsappShare" type="button">Share on WhatsApp ↗</button>
-<script>
-const ELECTION_DATE = "2026-11-05T09:00:00+05:30"; // 9 AM is a placeholder; verify official polling time.
-const FORM_ENDPOINT = ""; // Add a secure, privacy-reviewed endpoint before accepting submissions.
-const $ = id => document.getElementById(id);
-function updateCountdown(){
- const target=new Date(ELECTION_DATE).getTime(), diff=target-Date.now();
- const safe=Math.max(0,diff);
- $("days").textContent=Math.floor(safe/86400000);
- $("hours").textContent=String(Math.floor(safe/3600000)%24).padStart(2,"0");
- $("minutes").textContent=String(Math.floor(safe/60000)%60).padStart(2,"0");
- $("seconds").textContent=String(Math.floor(safe/1000)%60).padStart(2,"0");
-}
-updateCountdown();setInterval(updateCountdown,1000);
-function shareMessage(){return "Sharjeel Iqbal for AMUSU President 2026–27 — “Awaz Aapki. Zimmedari Meri.” "+location.href}
-$("whatsappShare").addEventListener("click",()=>window.open("https://wa.me/?text="+encodeURIComponent(shareMessage()),"_blank","noopener,noreferrer"));
-$("shareSite").addEventListener("click",async e=>{e.preventDefault();try{if(navigator.share)await navigator.share({title:document.title,text:shareMessage(),url:location.href});else if(navigator.clipboard){await navigator.clipboard.writeText(location.href);alert("Website link copied.");}else window.open("https://wa.me/?text="+encodeURIComponent(shareMessage()),"_blank","noopener,noreferrer")}catch(e){}});
-$("grievanceForm").addEventListener("submit",async e=>{
- e.preventDefault();const status=$("formStatus");
- if(!FORM_ENDPOINT){status.textContent="Setup required: this demo has not sent or stored your information. A secure backend must be connected before real submissions.";return}
- const form=e.currentTarget;const button=form.querySelector("button");button.disabled=true;status.textContent="Submitting securely…";
- try{const res=await fetch(FORM_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json","Accept":"application/json"},body:JSON.stringify({studentName:form.studentName.value.trim(),enrolment:form.enrolment.value.trim(),department:form.department.value.trim(),topic:form.topic.value,problem:form.problem.value.trim(),consent:$("privacyConsent").checked})});if(!res.ok)throw new Error();form.reset();status.textContent="Your concern was submitted."; }catch(err){status.textContent="Submission failed. Please try again later."}finally{button.disabled=false}
-});
-</script>
-</body></html>
+      <section class="gallery">
+        <div class="wrap">
+          <div class="gallery-grid">
+            <img src="./sharjeel-student-interaction.webp" alt="Sharjeel Iqbal greeting students on campus" />
+            <img src="./sharjeel-campus-arches.webp" alt="Sharjeel Iqbal standing under red-brick arches" />
+            <img src="./sharjeel-amu-building.webp" alt="Sharjeel Iqbal in front of an AMU building" />
+            <img src="./sharjeel-campus-gate.webp" alt="Sharjeel Iqbal at the campus gate" />
+            <img src="./sharjeel-campaign-poster.webp" alt="Campaign poster image of Sharjeel Iqbal" />
+            <img src="./sharjeel-student-interaction.webp" alt="Student interaction photo" />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
