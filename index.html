@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3efe5">
+  <meta name="description" content="Sharjeel Iqbal for AMUSU President: a student-first campaign for representation, accountability, and action at Aligarh Muslim University.">
+  <title>Sharjeel Iqbal | AMUSU President 2026–27</title>
+  <style>
+    :root {
+      --paper:#f3efe5; --ink:#20241f; --muted:#6b7169; --green:#234b3b;
+      --lime:#d5e36a; --line:rgba(32,36,31,.18); --white:#fffdf7;
+      --serif: Georgia, "Times New Roman", serif;
+      --sans: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:84px}
+    body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.55}
+    a{color:inherit}
+    button,input,textarea,select{font:inherit}
+    .wrap{width:min(1160px,calc(100% - 40px));margin-inline:auto}
+    .topbar{position:sticky;top:0;z-index:10;background:rgba(243,239,229,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}
+    .brand{font-size:.76rem;letter-spacing:.12em;font-weight:800;text-transform:uppercase;text-decoration:none}
+    .navlinks{display:flex;gap:22px;align-items:center}
+    .navlinks a{font-size:.83rem;text-decoration:none;color:var(--muted)}
+    .navlinks a:hover{color:var(--green)}
+    .nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:12px 17px;border:1px solid var(--green);background:var(--green);color:white;text-decoration:none;border-radius:3px;font-size:.88rem;font-weight:750;cursor:pointer;transition:transform .18s,background .18s}
+    .btn:hover,.nav-cta:hover{transform:translateY(-2px);background:#173629}
+    .btn.secondary{background:transparent;color:var(--green)}
+    .btn.light{background:var(--lime);border-color:var(--lime);color:var(--ink)}
+    .hero{padding:70px 0 62px;overflow:hidden}
+    .eyebrow{font-size:.74rem;text-transform:uppercase;letter-spacing:.17em;font-weight:800;color:var(--green);display:flex;align-items:center;gap:10px}
+    .eyebrow:before{content:"";width:26px;height:2px;background:var(--green)}
+    .hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center}
+    h1{font-family:var(--serif);font-size:clamp(3.4rem,8vw,7.6rem);font-weight:500;line-height:.88;letter-spacing:-.065em;margin:24px 0}
+    h1 em{color:var(--green);font-weight:500}
+    .hero p.lead{max-width:560px;font-size:1.1rem;color:#50574f}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+    .hero-note{font-size:.76rem;color:var(--muted);margin-top:20px}
+    .portrait-card{position:relative;min-height:490px;background:var(--green);padding:18px;display:flex;align-items:end;overflow:hidden}
+    .portrait-card:before{content:"AMU";position:absolute;top:-40px;right:-14px;font-family:var(--serif);font-size:11rem;line-height:1;color:rgba(255,255,255,.08)}
+    .portrait-placeholder{position:absolute;inset:18px 18px 90px;border:1px dashed rgba(255,255,255,.55);display:flex;align-items:center;justify-content:center;text-align:center;padding:30px;color:rgba(255,255,255,.8);font-size:.9rem}
+    .portrait-placeholder span{display:block;max-width:230px}
+    .portrait-placeholder strong{display:block;font-family:var(--serif);font-size:2rem;font-weight:400;margin-bottom:10px;color:white}
+    .portrait-card img{position:absolute;inset:18px 18px 90px;width:calc(100% - 36px);height:calc(100% - 108px);object-fit:cover;object-position:center top;display:none}
+    .portrait-caption{position:relative;z-index:1;color:white;display:flex;justify-content:space-between;gap:20px;width:100%;align-items:end}
+    .portrait-caption strong{font-family:var(--serif);font-size:1.65rem;font-weight:400;line-height:1.05}
+    .portrait-caption small{display:block;color:#d8e0d7;font-size:.72rem;letter-spacing:.12em;text-transform:uppercase;margin-bottom:6px}
+    .stamp{position:absolute;right:26px;top:26px;border:1px solid rgba(255,255,255,.55);color:white;border-radius:50%;width:90px;height:90px;display:grid;place-items:center;text-align:center;font-size:.66rem;line-height:1.25;letter-spacing:.1em;transform:rotate(10deg);z-index:2}
+    .ticker{background:var(--lime);overflow:hidden;white-space:nowrap;padding:13px 0;font-size:.76rem;font-weight:850;letter-spacing:.12em;text-transform:uppercase}
+    .ticker span{display:inline-block;padding-right:40px}
+    section{padding:84px 0}
+    .section-head{display:flex;justify-content:space-between;align-items:end;gap:28px;margin-bottom:35px}
+    .kicker{color:var(--green);font-size:.72rem;font-weight:850;text-transform:uppercase;letter-spacing:.16em}
+    h2{font-family:var(--serif);font-weight:500;font-size:clamp(2.5rem,5vw,4.6rem);line-height:.98;letter-spacing:-.045em;margin:12px 0 0}
+    .section-head p{max-width:390px;color:var(--muted);margin:0}
+    .manifesto{background:var(--white)}
+    .manifesto-grid{display:grid;grid-template-columns:repeat(2,1fr);border-top:1px solid var(--line)}
+    .promise{padding:26px 26px 28px 0;border-bottom:1px solid var(--line);display:grid;grid-template-columns:56px 1fr;gap:15px}
+    .promise:nth-child(odd){margin-right:28px}
+    .promise:nth-child(even){padding-left:28px;border-left:1px solid var(--line)}
+    .num{font-family:var(--serif);font-size:1.5rem;color:var(--green)}
+    .promise h3{font-size:1.12rem;margin:0 0 7px}
+    .promise p{margin:0;color:var(--muted);font-size:.91rem}
+    .promise small{display:block;color:var(--green);font-weight:800;letter-spacing:.08em;text-transform:uppercase;font-size:.67rem;margin-bottom:7px}
+    .visits{background:var(--green);color:white}
+    .visits .kicker{color:var(--lime)}
+    .visits .section-head p{color:#d2ddd4}
+    .visit-list{border-top:1px solid rgba(255,255,255,.25)}
+    .visit{display:grid;grid-template-columns:70px 1fr auto;gap:18px;align-items:center;padding:21px 0;border-bottom:1px solid rgba(255,255,255,.25)}
+    .visit .index{font-family:var(--serif);font-size:1.5rem;color:var(--lime)}
+    .visit h3{margin:0;font-size:1.1rem;font-weight:650}
+    .visit p{margin:4px 0 0;color:#d2ddd4;font-size:.87rem}
+    .visit time{font-size:.8rem;color:var(--lime);text-align:right}
+    .visit-note{font-size:.78rem;color:#d2ddd4;margin-top:20px}
+    .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .gallery-item{min-height:240px;position:relative;background:#e1dfd4;overflow:hidden;display:flex;align-items:end;padding:18px}
+    .gallery-item:nth-child(2){background:#dce5d9}
+    .gallery-item:nth-child(3){background:#e7d9ca}
+    .gallery-item img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:none}
+    .gallery-item .placeholder{position:absolute;inset:0;display:grid;place-items:center;text-align:center;padding:20px;color:var(--muted);font-size:.82rem}
+    .gallery-item .caption{position:relative;z-index:1;background:rgba(255,253,247,.92);padding:10px 12px;width:100%;font-size:.83rem;font-weight:750}
+    .testimonials{background:#e7e4da}
+    .quote-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .quote{padding:24px;background:var(--white);min-height:210px;display:flex;flex-direction:column;justify-content:space-between}
+    .quote blockquote{font-family:var(--serif);font-size:1.35rem;line-height:1.22;margin:0}
+    .quote cite{font-style:normal;font-size:.75rem;color:var(--muted);margin-top:24px}
+    .quote-note{font-size:.75rem;color:var(--muted);margin-top:18px}
+    .feedback-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:start}
+    .feedback-copy p{color:var(--muted);max-width:440px}
+    .privacy-note{padding:14px;border-left:3px solid var(--green);background:rgba(35,75,59,.06);font-size:.82rem;color:#535950;margin-top:25px}
+    form{display:grid;gap:14px}
+    label{font-size:.78rem;font-weight:800}
+    textarea,select,input{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:2px;background:var(--white);color:var(--ink);margin-top:6px}
+    textarea{min-height:130px;resize:vertical}
+    .form-foot{font-size:.75rem;color:var(--muted)}
+    .status{font-size:.85rem;font-weight:700;min-height:22px}
+    .countdown{background:var(--lime);padding:38px 0}
+    .count-grid{display:flex;align-items:center;justify-content:space-between;gap:30px}
+    .count-grid h2{font-size:clamp(2rem,4vw,3.5rem);max-width:550px}
+    .timer{display:flex;gap:10px}
+    .timebox{min-width:68px;text-align:center}
+    .timebox strong{font-family:var(--serif);font-size:2.2rem;font-weight:500;display:block;line-height:1}
+    .timebox span{font-size:.64rem;text-transform:uppercase;letter-spacing:.1em;font-weight:850}
+    .voting-note{font-size:.76rem;margin-top:12px;color:#49503e}
+    footer{background:#1d3027;color:white;padding:38px 0}
+    .footer-row{display:flex;justify-content:space-between;align-items:center;gap:25px}
+    footer p{color:#cbd7cf;font-size:.8rem;margin:6px 0 0}
+    .footer-links{display:flex;gap:16px;flex-wrap:wrap}
+    .footer-links a{font-size:.8rem;color:#e4eadf}
+    .share-float{position:fixed;right:18px;bottom:18px;z-index:9;box-shadow:0 8px 30px #0002}
+    .smallcaps{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;font-weight:800}
+    @media(max-width:800px){
+      .navlinks{display:none}.hero{padding-top:44px}.hero-grid,.feedback-grid{grid-template-columns:1fr;gap:32px}
+      .portrait-card{min-height:430px}.section-head{display:block}.section-head p{margin-top:18px}
+      .manifesto-grid{grid-template-columns:1fr}.promise:nth-child(odd){margin-right:0}.promise:nth-child(even){padding-left:0;border-left:0}
+      .gallery-grid,.quote-grid{grid-template-columns:1fr}.gallery-item{min-height:210px}
+      .visit{grid-template-columns:42px 1fr}.visit time{grid-column:2;text-align:left}
+      .count-grid{display:block}.timer{margin-top:26px}.timebox{min-width:0;flex:1}
+      .footer-row{display:block}.footer-links{margin-top:18px}
+    }
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#home">AMUSU 26–27 / Sharjeel Iqbal</a>
+      <nav class="navlinks" aria-label="Main navigation">
+        <a href="#manifesto">Manifesto</a><a href="#visits">Campus visits</a><a href="#gallery">Gallery</a><a href="#feedback">Feedback</a>
+      </nav>
+      <a class="nav-cta" href="#manifesto">Explore the plan ↘</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="wrap hero-grid">
+        <div>
+          <div class="eyebrow">Aligarh Muslim University · AMUSU 2026–27</div>
+          <h1>Student First.<br><em>Always.</em></h1>
+          <p class="lead">Sharjeel Iqbal’s campaign for student representation, built around listening across campus, taking student concerns seriously, and reporting follow-up clearly.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#manifesto">Read the manifesto <span>↘</span></a>
+            <a class="btn secondary" href="#visits">Meet across campus</a>
+            <a class="btn secondary" href="https://www.instagram.com/sharjeel_iqbal4president?srtk=MXJsMGFlOWhmeTE4Yg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+          </div>
+          <div class="hero-note">A fresh, student-led vision for representation. Replace the sample copy with the candidate’s verified details and commitments.</div>
+        </div>
+        <div class="portrait-card">
+          <div class="stamp">LISTEN<br>ACT<br>REPORT</div>
+          <div class="portrait-placeholder" id="heroPlaceholder"><span><strong>Candidate portrait</strong>Add the candidate photograph as <code>candidate.jpg</code> in this folder. The portrait will appear automatically.</span></div>
+          <img id="heroImage" src="candidate.jpg" alt="Candidate portrait">
+          <div class="portrait-caption">
+            <div><small>Candidate</small><strong>AMUSU President</strong></div>
+            <div class="smallcaps">2026–27</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Campaign values">
+      <span>Listen with purpose ✳ Act with integrity ✳ Report progress ✳ Student first ✳ </span>
+      <span>Listen with purpose ✳ Act with integrity ✳ Report progress ✳ Student first ✳ </span>
+    </div>
+
+    <section class="manifesto" id="manifesto">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="kicker">01 / The plan</div><h2>A manifesto that<br>means something.</h2></div>
+          <p>Keep every promise specific, realistic, and open to public follow-up. These are editable starter themes—not claims that any issue has already been resolved.</p>
+        </div>
+        <div class="manifesto-grid">
+          <article class="promise"><div class="num">01</div><div><small>Academic support</small><h3>Clearer academic communication</h3><p>Raise recurring concerns about schedules, notices, examination updates and result delays through the appropriate university channels.</p></div></article>
+          <article class="promise"><div class="num">02</div><div><small>Student voice</small><h3>Open, accessible representation</h3><p>Make it easier for students across departments and halls to raise issues and receive a clear status update.</p></div></article>
+          <article class="promise"><div class="num">03</div><div><small>Campus facilities</small><h3>Documented issue follow-up</h3><p>Collect reports on classrooms, laboratories, libraries, Wi-Fi and shared facilities, then track referrals and responses.</p></div></article>
+          <article class="promise"><div class="num">04</div><div><small>Hostel life</small><h3>Listen to hall-level concerns</h3><p>Hold accessible conversations about maintenance, dining, water, cleanliness and other concerns students choose to raise.</p></div></article>
+          <article class="promise"><div class="num">05</div><div><small>Career readiness</small><h3>More useful career information</h3><p>Advocate for better visibility of internships, career events, skill-building opportunities and placement-related resources.</p></div></article>
+          <article class="promise"><div class="num">06</div><div><small>Welfare and inclusion</small><h3>Respectful, fair support</h3><p>Listen to student welfare concerns and direct them to the relevant official support services when appropriate.</p></div></article>
+          <article class="promise"><div class="num">07</div><div><small>Transparency</small><h3>Updates students can check</h3><p>Publish periodic summaries of issues raised, actions taken, responses received and matters still awaiting resolution.</p></div></article>
+          <article class="promise"><div class="num">08</div><div><small>Accountability</small><h3>Promises with follow-through</h3><p>Distinguish between what student representatives can do directly and what requires university approval or resources.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visits" id="visits">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="kicker">02 / Across campus</div><h2>Every department.<br>Every voice.</h2></div>
+          <p>Use this section to document real student interactions and publish upcoming visits. Replace sample entries with confirmed dates, venues and timings.</p>
+        </div>
+        <div class="visit-list">
+          <article class="visit"><div class="index">01</div><div><h3>Department conversations</h3><p>One-to-one discussions, student questions and concerns raised directly.</p></div><time>Update with date / time</time></article>
+          <article class="visit"><div class="index">02</div><div><h3>Hall interactions</h3><p>Listening sessions on shared living, dining, facilities and student welfare.</p></div><time>Update with date / time</time></article>
+          <article class="visit"><div class="index">03</div><div><h3>Follow-up and response</h3><p>Share what was heard, where the issue was referred and what happens next.</p></div><time>Update after meeting</time></article>
+        </div>
+        <p class="visit-note">Please publish only visits that have actually happened or are confirmed. Obtain consent before posting identifiable student photos or quotations.</p>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="kicker">03 / The people</div><h2>Present on campus.<br>Accountable to students.</h2></div>
+          <p>Replace these placeholders with original photographs from department visits, hall interactions and student discussions.</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item"><div class="placeholder">Add a real department-visit photo</div><img src="visit-1.jpg" alt="Candidate meeting students in a department"><div class="caption">Department conversations</div></div>
+          <div class="gallery-item"><div class="placeholder">Add a real student-interaction photo</div><img src="visit-2.jpg" alt="Candidate listening to students"><div class="caption">Listening, one conversation at a time</div></div>
+          <div class="gallery-item"><div class="placeholder">Add a real campus photo</div><img src="visit-3.jpg" alt="Campus outreach activity"><div class="caption">Across the AMU community</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials" id="testimonials">
+      <div class="wrap">
+        <div class="section-head">
+          <div><div class="kicker">04 / Student voices</div><h2>Let students<br>speak for themselves.</h2></div>
+          <p>Use verified testimonials only, with permission from the people quoted. Do not publish invented endorsements.</p>
+        </div>
+        <div class="quote-grid">
+          <article class="quote"><blockquote>“Add a genuine student comment here, with their permission.”</blockquote><cite>— Student name or “Anonymous student”, with consent</cite></article>
+          <article class="quote"><blockquote>“Describe a real concern raised during a campus interaction.”</blockquote><cite>— Student name or “Anonymous student”, with consent</cite></article>
+          <article class="quote"><blockquote>“Share a verified reflection on what better representation should look like.”</blockquote><cite>— Student name or “Anonymous student”, with consent</cite></article>
+        </div>
+        <div class="quote-note">These are placeholders, not actual endorsements. Replace or remove them before launch.</div>
+      </div>
+    </section>
+
+    <section id="feedback">
+      <div class="wrap feedback-grid">
+        <div class="feedback-copy">
+          <div class="kicker">05 / Your voice</div>
+          <h2>Tell us what<br>needs to change.</h2>
+          <p>Share an issue, suggestion or question. The form below does not ask for your name, email or phone number. Configure a secure form endpoint before publishing so submissions actually reach the team.</p>
+          <div class="privacy-note"><strong>Privacy matters.</strong> Do not include sensitive personal information. A website form can still generate technical logs; do not promise complete anonymity unless your form provider and hosting setup have been reviewed.</div>
+        </div>
+        <form id="feedbackForm">
+          <div><label for="topic">What is this about?</label><select id="topic" name="topic" required><option value="">Choose a topic</option><option>Academic concerns</option><option>Department facilities</option><option>Hostel / hall concerns</option><option>Career and placements</option><option>Student welfare</option><option>Suggestion for the union</option><option>Other</option></select></div>
+          <div><label for="message">Your message</label><textarea id="message" name="message" minlength="10" maxlength="2000" placeholder="Tell us what you experienced or what you would like us to follow up..." required></textarea></div>
+          <div><label><input type="checkbox" id="consent" required style="width:auto;margin-right:8px">I understand not to include private or sensitive personal information.</label></div>
+          <button class="btn" type="submit">Submit feedback ↗</button>
+          <div class="status" id="formStatus" role="status" aria-live="polite"></div>
+          <div class="form-foot">Setup required: connect a privacy-reviewed form endpoint in the JavaScript below. Until then, submissions are not sent or saved.</div>
+        </form>
+      </div>
+    </section>
+
+    <section class="countdown" id="election">
+      <div class="wrap count-grid">
+        <div><div class="smallcaps">AMUSU 2026–27 · Election information</div><h2>Make your voice count.</h2><div class="voting-note" id="electionNote">Election date provided for this page: 5 November 2026. Verify the official date, polling time, eligibility and voting instructions against AMU notices before publishing.</div></div>
+        <div><div class="timer" aria-label="Countdown to election">
+          <div class="timebox"><strong id="days">—</strong><span>Days</span></div>
+          <div class="timebox"><strong id="hours">—</strong><span>Hours</span></div>
+          <div class="timebox"><strong id="minutes">—</strong><span>Minutes</span></div>
+          <div class="timebox"><strong id="seconds">—</strong><span>Seconds</span></div>
+        </div><div class="voting-note">Countdown targets 5 November 2026 at a placeholder time of 9:00 AM IST. Confirm the official polling time before launch.</div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap footer-row">
+      <div><div class="brand">SHARJEEL IQBAL · AMUSU PRESIDENT · 2026–27</div><p>Sharjeel Iqbal · Student First. Always.</p></div>
+      <div class="footer-links"><a href="#manifesto">Manifesto</a><a href="#visits">Campus visits</a><a href="#feedback">Feedback</a><a href="https://www.instagram.com/sharjeel_iqbal4president?srtk=MXJsMGFlOWhmeTE4Yg%3D%3D&amp;utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="#" id="shareLink">Share this site ↗</a></div>
+    </div>
+  </footer>
+  <button class="btn light share-float" id="whatsappShare" type="button" aria-label="Share website on WhatsApp">Share on WhatsApp ↗</button>
+
+  <script>
+    /*
+      BEFORE LAUNCH:
+      1. Replace the candidate details and image filenames.
+      2. Set ELECTION_DATE to the verified local date/time, e.g. "2026-11-15T09:00:00+05:30".
+      3. Set FORM_ENDPOINT to a real, privacy-reviewed form endpoint. Do not claim submissions work until tested.
+    */
+    const ELECTION_DATE = "2026-11-05T09:00:00+05:30"; // Date supplied by the user; 09:00 is a placeholder time and must be verified.
+    const FORM_ENDPOINT = ""; // Example: your provider's submission URL
+
+    // Show candidate / gallery photos when the corresponding files are added.
+    function revealImage(imgId, placeholderId) {
+      const img = document.getElementById(imgId);
+      const placeholder = document.getElementById(placeholderId);
+      if (!img || !placeholder) return;
+      img.addEventListener("load", () => { img.style.display = "block"; placeholder.style.display = "none"; });
+      img.addEventListener("error", () => { img.style.display = "none"; placeholder.style.display = "grid"; });
+      if (img.complete && img.naturalWidth > 0) { img.style.display = "block"; placeholder.style.display = "none"; }
+    }
+    revealImage("heroImage", "heroPlaceholder");
+    document.querySelectorAll(".gallery-item").forEach((item) => {
+      const img = item.querySelector("img");
+      const placeholder = item.querySelector(".placeholder");
+      img.addEventListener("load", () => { img.style.display = "block"; placeholder.style.display = "none"; });
+      img.addEventListener("error", () => { img.style.display = "none"; placeholder.style.display = "grid"; });
+      if (img.complete && img.naturalWidth > 0) { img.style.display = "block"; placeholder.style.display = "none"; }
+    });
+
+    const pad = n => String(n).padStart(2, "0");
+    function updateCountdown() {
+      if (!ELECTION_DATE) return;
+      const target = new Date(ELECTION_DATE).getTime();
+      if (Number.isNaN(target)) return;
+      const remaining = target - Date.now();
+      if (remaining <= 0) {
+        document.getElementById("days").textContent = "00";
+        document.getElementById("hours").textContent = "00";
+        document.getElementById("minutes").textContent = "00";
+        document.getElementById("seconds").textContent = "00";
+        document.querySelector("#election .voting-note").textContent = "The configured election date has arrived or passed. Check official notices for current voting information.";
+        return;
+      }
+      document.getElementById("days").textContent = Math.floor(remaining / 86400000);
+      document.getElementById("hours").textContent = pad(Math.floor(remaining / 3600000) % 24);
+      document.getElementById("minutes").textContent = pad(Math.floor(remaining / 60000) % 60);
+      document.getElementById("seconds").textContent = pad(Math.floor(remaining / 1000) % 60);
+    }
+    if (ELECTION_DATE) { updateCountdown(); setInterval(updateCountdown, 1000); }
+
+    function shareText() {
+      return "Sharjeel Iqbal for Sharjeel Iqbal for Sharjeel Iqbal for AMUSU President 2026–27 — Student First. Always. " + window.location.href;
+    }
+    document.getElementById("whatsappShare").addEventListener("click", () => {
+      window.open("https://wa.me/?text=" + encodeURIComponent(shareText()), "_blank", "noopener,noreferrer");
+    });
+    document.getElementById("shareLink").addEventListener("click", async (event) => {
+      event.preventDefault();
+      try {
+        if (navigator.share) await navigator.share({ title: document.title, text: "AMUSU President campaign", url: window.location.href });
+        else if (navigator.clipboard) { await navigator.clipboard.writeText(window.location.href); alert("Website link copied."); }
+        else window.open("https://wa.me/?text=" + encodeURIComponent(shareText()), "_blank", "noopener,noreferrer");
+      } catch (_) { /* User cancelled the native share sheet. */ }
+    });
+
+    document.getElementById("feedbackForm").addEventListener("submit", async (event) => {
+      event.preventDefault();
+      const status = document.getElementById("formStatus");
+      const form = event.currentTarget;
+      if (!FORM_ENDPOINT) {
+        status.textContent = "Setup needed: connect a form endpoint before this form can send feedback.";
+        return;
+      }
+      const submitButton = form.querySelector('button[type="submit"]');
+      submitButton.disabled = true;
+      status.textContent = "Sending…";
+      try {
+        const response = await fetch(FORM_ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "Accept": "application/json" },
+          body: JSON.stringify({
+            topic: form.topic.value,
+            message: form.message.value.trim(),
+            consent: document.getElementById("consent").checked,
+            submittedAt: new Date().toISOString()
+          })
+        });
+        if (!response.ok) throw new Error("Submission failed");
+        form.reset();
+        status.textContent = "Thank you. Your feedback was submitted.";
+      } catch (error) {
+        status.textContent = "We couldn't submit your feedback. Please try again later.";
+      } finally {
+        submitButton.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>
