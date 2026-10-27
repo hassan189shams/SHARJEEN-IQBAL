@@ -56,12 +56,12 @@ footer{background:#172d23;color:white;padding:38px 0}.footer-row{display:flex;ju
 <div class="hero-actions"><a class="btn" href="#manifesto">Explore the manifesto ↓</a><a class="btn outline" href="#gallery">Meet Sharjeel</a></div>
 <p class="micro">Listen first. Speak clearly. Follow up responsibly.</p>
 </div>
-<div class="hero-photo"><img src="assets/sharjeel-primary.jpg" alt="Sharjeel Iqbal, primary campaign portrait in a light sherwani">
+<div class="hero-photo"><img src="./sharjeel-primary.jpg" alt="Sharjeel Iqbal, primary campaign portrait in a light sherwani">
 <div class="photo-label"><div><small>Candidate for</small><strong>Sharjeel Iqbal</strong></div><span>AMUSU<br>PRESIDENT</span></div></div>
 </div></section>
 
 <section class="editorial-art" aria-label="AMU-inspired campus illustration"><div class="wrap">
-<img src="assets/amu-editorial-illustration.svg" alt="Original editorial illustration of an academic building with arches, trees and a sunrise in forest green, ivory and muted gold">
+<img src="./amu-editorial-illustration.svg" alt="Original editorial illustration of an academic building with arches, trees and a sunrise in forest green, ivory and muted gold">
 <div class="art-caption"><span>AMU · HERITAGE & STUDENT VOICE</span><span>A student-first vision</span></div>
 </div></section>
 
